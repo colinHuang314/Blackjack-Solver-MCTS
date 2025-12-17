@@ -662,4 +662,5 @@ else:
 
 
 print(Fore.RESET)
+
 if PRINT_EXTRAS: print("dev notes for future updates:  could disregard first n itters by keeping running sum of totals of first action nodes, fix tc calc for make deck count, 16 vs 9, more rules, ")
