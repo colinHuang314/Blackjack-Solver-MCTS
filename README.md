@@ -1,4 +1,4 @@
-# Blackjack-Solver-MCTS-
+# Blackjack-Solver-MCTS
 
 ## Overview
 This project is a Blackjack decision solver built using a customized Monte Carlo Tree Search (MCTS) framework. Given any player hand, dealer upcard, game rules, and deck state (including card count), the solver computes the optimal action and expected value (EV). When run at sufficient accuracy, results match industry-standard optimal-play tables and counting deviations. 
