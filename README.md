@@ -8,14 +8,14 @@ The solver has been validated against the Blackjack Apprenticeship strategy and 
 Unlike classic MCTS implementations, this solver is adapted for Blackjack’s stochastic nature, modeling card draws as chance events.
 
 ## How to Use
-Change lines 19-20 to pick a player hand and dealer card. All ten value cards are represented as 10, and aces are 11. This can run as is, but below are more settings you can change:
-- line 30:     runtime of algorithm
-- lines 36-40: game rules
-- line 31:     Feature to let the solver run until it is "confident" in its answer
-- line 44:     setting at which the confidence is measured
-- line 29:     if you want more details printed
-- line 22:     the true count at which to simulate the hand (a card counting metric)
-- lines 53-68: are not recommended to be changed
+Change lines **19-20** to pick a player hand and dealer card. All ten value cards are represented as 10, and aces are 11. This can run as is, but below are more settings you can change:
+- line **30**:     runtime of algorithm
+- lines **36-40**: game rules
+- line **31**:     Feature to let the solver run until it is "confident" in its answer
+- line **44**:     setting at which the confidence is measured
+- line **29**:     if you want more details printed
+- line **22**:     the true count at which to simulate the hand (a card counting metric)
+- lines **53-68**: are not recommended to be changed
 
 ## Key Features
 - Monte Carlo Tree Search–based decision engine
