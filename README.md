@@ -7,6 +7,11 @@ The solver has been validated against the Blackjack Apprenticeship strategy and 
 
 Unlike classic MCTS implementations, this solver is adapted for Blackjack’s stochastic nature, modeling card draws as chance events.
 
+---
+
+<details>
+  <summary><strong>How to Use</strong></summary>
+  
 ## How to Use
 Change lines **19-20** to pick a player hand and dealer card. All ten value cards are represented as 10, and aces are 11. This can run as is, but below are more settings you can change:
 - line **30**:     runtime of algorithm
@@ -17,6 +22,13 @@ Change lines **19-20** to pick a player hand and dealer card. All ten value card
 - line **22**:     the true count at which to simulate the hand (a card counting metric)
 - lines **53-68**: are not recommended to be changed
 
+</details>
+
+---
+
+<details>
+  <summary><strong>Key Features</strong></summary>
+  
 ## Key Features
 - Monte Carlo Tree Search–based decision engine
   - Computes optimal actions and EV for hit, stand, double, and split
@@ -40,6 +52,13 @@ Change lines **19-20** to pick a player hand and dealer card. All ten value card
     - Medium: Correct for almost all non-splits and most splits
     - Tuned: Designed for ~99%+ accuracy across all hands
 
+</details>
+
+---
+
+<details>
+  <summary><strong>Performance Characteristics</strong></summary>
+  
 ## Performance Characteristics
 - For my computer, I got:
   - ~10 million iterations in ~5 minutes = ~33,000 iterations/sec
@@ -53,6 +72,13 @@ Change lines **19-20** to pick a player hand and dealer card. All ten value card
   - Using basic strategy rollouts improves convergence speed
   - Non-tuned settings may produce incorrect decisions or incorrect EV estimates for splits
 
+</details>
+
+---
+
+<details>
+  <summary><strong>Example Deviations to Try</strong></summary>
+  
 ## Example Deviations to Try
 - Pair 10s vs 6
 - Hard 8 vs 6
@@ -62,6 +88,13 @@ Change lines **19-20** to pick a player hand and dealer card. All ten value card
 
 *Also you can try Soft 19 vs 6 under both H17 and S17 rules to observe rule-dependent decision changes.*
 
+</details>
+
+---
+
+<details>
+  <summary><strong>MCTS Design (Blackjack-Specific)</strong></summary>
+  
 ## MCTS Design (Blackjack-Specific)
 This solver doesn't use classic MCTS:
 - Action nodes represent player decisions
@@ -76,7 +109,16 @@ This solver doesn't use classic MCTS:
 
 *There are likely other ways to do it, but this is how I chose to do it*
 
+</details>
+
+---
+
+<details>
+  <summary><strong>Notes</strong></summary>
+  
 ## Notes
 Some configuration parameters have subtle interactions—tweaking settings may have non-obvious effects on convergence speed and accuracy.
 
 Yes, the code is messy in certain parts. I'll use better Python conventions and write cleaner code in the future.
+
+</details>
