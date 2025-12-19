@@ -32,7 +32,7 @@ Change lines **19-20** to pick a player hand and dealer card. All ten value card
 ## Key Features
 - Monte Carlo Tree Search–based decision engine
   - Computes optimal actions and EV for hit, stand, double, and split
-  - 
+
 - Explicit Chance Node Modeling
   - Separate nodes for:
     - Player actions
