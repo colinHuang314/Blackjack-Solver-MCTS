@@ -10,7 +10,7 @@ Unlike classic MCTS implementations, this solver is adapted for Blackjack’s st
 ---
 
 <details>
-  <summary><strong>How to Use</strong></summary>
+  <summary><strong>⚙️ How to Use</strong></summary>
   
 ## How to Use
 Change lines **19-20** to pick a player hand and dealer card. All ten value cards are represented as 10, and aces are 11. This can run as is, but below are more settings you can change:
@@ -27,7 +27,7 @@ Change lines **19-20** to pick a player hand and dealer card. All ten value card
 ---
 
 <details>
-  <summary><strong>Key Features</strong></summary>
+  <summary><strong>🔑 Key Features</strong></summary>
   
 ## Key Features
 - Monte Carlo Tree Search–based decision engine
@@ -57,7 +57,7 @@ Change lines **19-20** to pick a player hand and dealer card. All ten value card
 ---
 
 <details>
-  <summary><strong>Performance Characteristics</strong></summary>
+  <summary><strong>⚡️ Performance Characteristics</strong></summary>
   
 ## Performance Characteristics
 - For my computer, I got:
@@ -77,7 +77,7 @@ Change lines **19-20** to pick a player hand and dealer card. All ten value card
 ---
 
 <details>
-  <summary><strong>Example Deviations to Try</strong></summary>
+  <summary><strong>🤔 Example Deviations to Try</strong></summary>
   
 ## Example Deviations to Try
 - Pair 10s vs 6
@@ -93,7 +93,7 @@ Change lines **19-20** to pick a player hand and dealer card. All ten value card
 ---
 
 <details>
-  <summary><strong>MCTS Design (Blackjack-Specific)</strong></summary>
+  <summary><strong>🧱 MCTS Design (Blackjack-Specific)</strong></summary>
   
 ## MCTS Design (Blackjack-Specific)
 This solver doesn't use classic MCTS:
@@ -114,7 +114,7 @@ This solver doesn't use classic MCTS:
 ---
 
 <details>
-  <summary><strong>Notes</strong></summary>
+  <summary><strong>📒 Notes</strong></summary>
   
 ## Notes
 Some configuration parameters have subtle interactions—tweaking settings may have non-obvious effects on convergence speed and accuracy.
