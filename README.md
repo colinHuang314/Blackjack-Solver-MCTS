@@ -7,6 +7,8 @@ The solver has been validated against the Blackjack Apprenticeship strategy and 
 
 Unlike classic MCTS implementations, this solver is adapted for Blackjack’s stochastic nature, modeling card draws as chance events.
 
+<img width="700" height="700" alt="Blackjack-MCTS-image2" src="https://github.com/user-attachments/assets/3c09d3db-3f12-499f-96c8-7dbbd5960c52" />
+
 ---
 
 <details>
